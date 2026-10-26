@@ -3,6 +3,7 @@
 **Project Title:** Intelligent Multilingual Speech-to-Text and Subtitle Generation Studio  
 **Project Identifier:** `speech-to-text_GR-10`  
 **Repository:** [https://github.com/01-Aarav/speech-to-text_GR-10](https://github.com/01-Aarav/speech-to-text_GR-10)  
+**Live Web Studio:** [https://speech-to-text-gr-10.streamlit.app/](https://speech-to-text-gr-10.streamlit.app/)  
 **Core Technologies:** OpenAI Whisper, PyTorch, Streamlit, FFmpeg, Python 3.13  
 **Target Environment:** Cross-Platform (Windows, Linux, macOS)  
 **Date:** October 2026  

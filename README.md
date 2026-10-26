@@ -1,5 +1,12 @@
 # 🎙️ Whisper Speech-to-Text & Subtitle Generator
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://speech-to-text-gr-10.streamlit.app/)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/01-Aarav/speech-to-text_GR-10)
+
+> 🌐 **Live Web Application:**  
+> Access the live application directly in your browser:  
+> 👉 **[https://speech-to-text-gr-10.streamlit.app/](https://speech-to-text-gr-10.streamlit.app/)**
+
 An intelligent Speech-to-Text (STT) and subtitle generation application powered by **OpenAI Whisper** and **Streamlit**. It allows you to transcribe audio/video files or live microphone recordings, automatically detect spoken languages, translate speech to English, and export transcriptions in multiple industry-standard formats (TXT, SRT, VTT, JSON).
 
 > 📄 **Academic & Engineering Documentation:**  
@@ -33,11 +40,13 @@ An intelligent Speech-to-Text (STT) and subtitle generation application powered 
 ```text
 whisper-speech-to-text/
 │
+├── Open_Live_Website.url # 1-click shortcut to open the live web app
 ├── app.py                # Streamlit Web Application
 ├── cli.py                # Command-Line Interface tool
 ├── utils.py              # FFmpeg setup, model loading, SRT/VTT generators
 ├── create_sample.py      # Quick script to generate test audio
 ├── requirements.txt      # Python dependencies
+├── packages.txt          # Linux system dependencies (FFmpeg for Cloud)
 ├── run_app.bat           # 1-click Windows Web App launcher
 ├── push_to_github.bat    # 1-click Git push script
 ├── PROJECT_REPORT.md     # 15-page in-depth technical report
