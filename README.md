@@ -1,11 +1,11 @@
 # 🎙️ Whisper Speech-to-Text & Subtitle Generator
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://speech-to-text-gr-10.streamlit.app/)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://speech-to-text-mini.streamlit.app/)
 [![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/01-Aarav/speech-to-text_GR-10)
 
 > 🌐 **Live Web Application:**  
 > Access the live application directly in your browser:  
-> 👉 **[https://speech-to-text-gr-10.streamlit.app/](https://speech-to-text-gr-10.streamlit.app/)**
+> 👉 **[https://speech-to-text-mini.streamlit.app/](https://speech-to-text-mini.streamlit.app/)**
 
 An intelligent Speech-to-Text (STT) and subtitle generation application powered by **OpenAI Whisper** and **Streamlit**. It allows you to transcribe audio/video files or live microphone recordings, automatically detect spoken languages, translate speech to English, and export transcriptions in multiple industry-standard formats (TXT, SRT, VTT, JSON).
 
