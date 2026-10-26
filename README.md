@@ -39,18 +39,17 @@ An intelligent Speech-to-Text (STT) and subtitle generation application powered 
 
 ```text
 whisper-speech-to-text/
-│
-├── Open_Live_Website.url # 1-click shortcut to open the live web app
-├── app.py                # Streamlit Web Application
-├── cli.py                # Command-Line Interface tool
-├── utils.py              # FFmpeg setup, model loading, SRT/VTT generators
-├── create_sample.py      # Quick script to generate test audio
-├── requirements.txt      # Python dependencies
-├── packages.txt          # Linux system dependencies (FFmpeg for Cloud)
-├── run_app.bat           # 1-click Windows Web App launcher
-├── push_to_github.bat    # 1-click Git push script
-├── PROJECT_REPORT.md     # 15-page in-depth technical report
-└── README.md             # Project documentation
+�
++-- OPEN_LIVE_WEBSITE.html # Open the live web app in browser
++-- app.py                 # Streamlit Web Application
++-- cli.py                 # Command-Line Interface tool
++-- utils.py               # FFmpeg setup, model loading, SRT/VTT generators
++-- create_sample.py       # Quick script to generate test audio
++-- requirements.txt       # Python dependencies
++-- packages.txt           # Linux system dependencies (FFmpeg for Cloud)
++-- run_app.bat            # 1-click Windows local launcher
++-- PROJECT_REPORT.md      # 15-page in-depth technical report
++-- README.md              # Project documentation
 ```
 
 ---
@@ -169,3 +168,4 @@ OpenAI Whisper is an **Encoder-Decoder Transformer**:
 
 ## 📜 License & Credits
 Built with [OpenAI Whisper](https://github.com/openai/whisper) and [Streamlit](https://streamlit.io/). Open-sourced under the MIT License.
+
