@@ -1,0 +1,30 @@
+# Python virtual environment
+.venv/
+venv/
+ENV/
+env/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Whisper downloaded weights (exceeds GitHub's 100MB limit)
+models/
+*.pt
+
+# Streamlit config / cache
+.streamlit/
+
+# Temporary generated test transcripts (keep sample_speech.wav for testing)
+sample_speech.txt
+sample_speech.srt
+sample_speech.vtt
+*.tmp
+
+# Operating System files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store

@@ -1,0 +1,7 @@
+# Core Whisper & Audio Processing
+openai-whisper
+imageio-ffmpeg
+pydub
+
+# Web Interface
+streamlit>=1.40.0
