@@ -2,6 +2,9 @@
 
 An intelligent Speech-to-Text (STT) and subtitle generation application powered by **OpenAI Whisper** and **Streamlit**. It allows you to transcribe audio/video files or live microphone recordings, automatically detect spoken languages, translate speech to English, and export transcriptions in multiple industry-standard formats (TXT, SRT, VTT, JSON).
 
+> 📄 **Academic & Engineering Documentation:**  
+> A detailed 15-page comprehensive technical report is available at [**`PROJECT_REPORT.md`**](PROJECT_REPORT.md), covering mathematical foundations, Transformer architecture, benchmarks, and comparative evaluations.
+
 ---
 
 ## ✨ Features
@@ -35,6 +38,9 @@ whisper-speech-to-text/
 ├── utils.py              # FFmpeg setup, model loading, SRT/VTT generators
 ├── create_sample.py      # Quick script to generate test audio
 ├── requirements.txt      # Python dependencies
+├── run_app.bat           # 1-click Windows Web App launcher
+├── push_to_github.bat    # 1-click Git push script
+├── PROJECT_REPORT.md     # 15-page in-depth technical report
 └── README.md             # Project documentation
 ```
 
